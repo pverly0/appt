@@ -20,7 +20,7 @@ function Welcome(props) {
 
             <TouchableOpacity onPress={() => console.log('tap')}
             style= {styles.butTr}>
-               <Text style={{fontSize:21, textAlign: 'center'}}>Traço</Text> 
+               <Text style={{fontSize:21, textAlign: 'center'}}>Traço do Concreto</Text> 
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => console.log('tap')}
