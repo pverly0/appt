@@ -4,9 +4,9 @@
     "slug": "appt",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/images/icon.png",
+    "icon": "./src/Images/icon.png",
     "splash": {
-      "image": "./app/src/images/splash.png",
+      "image": "./src/Images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/images/adaptive-icon.png",
+        "foregroundImage": "./src/Images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./src/images/favicon.png"
+      "favicon": "./src/Images/favicon.png"
       
     }
   }
