@@ -1,7 +1,6 @@
 import React from 'react';
 import { Image, ImageBackground, 
-    StyleSheet, Text, 
-    View, TouchableOpacity, 
+    Text, TouchableOpacity, 
     StatusBar } from 'react-native';
 
 import styles from 'appt/src/Styles/styles';
@@ -13,7 +12,6 @@ function Welcome(props) {
         <ImageBackground 
         style={styles.background}
         >
-            
             <Image style={styles.logo} 
             source={require('appt/src/Images/logosPreto.png')} 
             />
@@ -35,7 +33,6 @@ function Welcome(props) {
 
             <StatusBar style='light'/>
         </ImageBackground>
-
     );
 };
 
