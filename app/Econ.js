@@ -15,9 +15,9 @@ function Econ(props) {
             source={require('appt/src/Images/logoSimples.png')} 
             />
 
-            <Text style={{fontSize:30, color:'white', top: '2%'}}>Insira os dados:</Text>
+            <Text style={{fontSize:30, color:'white', top: '2%', alignSelf: 'center'}}>Insira os dados:</Text>
 
-            <Text style={{fontSize:20, color:'white', textAlign:'left'}}>Volume</Text>
+            <Text style={{fontSize:20, color:'white', textAlign:'left', top:'5%'}}>Volume</Text>
 
         </ImageBackground>
     );

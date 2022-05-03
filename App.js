@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Welcome from './app/Welcome';
+import Econ from './app/Econ';
 
 export default function App() {
-  return <Welcome/>;
+  return <Econ/>;
 };
 
