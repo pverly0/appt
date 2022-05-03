@@ -16,7 +16,7 @@ function TracoOp(props) {
             source={require('appt/src/Images/logoSimples.png')} 
             />
 
-            <Text style={{fontSize:30, color:'white', top: '10%'}}>O que gostaria de fazer?</Text>
+            <Text style={{fontSize:30, color:'white', top: '10%', textAlign:'center'}}>O que gostaria de fazer?</Text>
 
             <TouchableOpacity onPress={() => console.log('tap')}
             style= {styles.butTrMd}>

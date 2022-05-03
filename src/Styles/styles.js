@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         backgroundColor: '#121212',
-        alignItems: 'center',
     },
     butAm: {
         position: 'absolute',
@@ -30,6 +29,7 @@ const styles = StyleSheet.create({
         width: '30%',
         alignItems: 'center',
         justifyContent: 'center',
+        alignSelf: 'center',
     },
     butTr: {
         position: 'absolute',
@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
         left: '4%',
         justifyContent: 'center',
         alignItems: 'center',
+        
     },
     butTrMd: {
         position: 'absolute',
@@ -52,7 +53,7 @@ const styles = StyleSheet.create({
         height: '20%',
         width: '90%',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignSelf: 'center',
     },
     butMdTr: {
         position: 'absolute',
@@ -63,13 +64,14 @@ const styles = StyleSheet.create({
         height: '20%',
         width: '90%',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignSelf: 'center',
     },
     logo: {
         width: '70%',
         height: '25%',
         position: 'absolute',
         top: '20%',
+        alignSelf: 'center',
     },
     logoS: {
         width: '15%',
