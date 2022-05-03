@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Welcome from './app/Welcome';
+import TracoOp from './app/TracoOp';
 
 export default function App() {
-  return <Welcome/>;
+  return <TracoOp/>;
 };
 
