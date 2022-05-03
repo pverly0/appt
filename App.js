@@ -1,8 +1,8 @@
 import React from 'react';
 
-import TracoOp from './app/TracoOp';
+import Econ from './app/Econ';
 
 export default function App() {
-  return <TracoOp/>;
+  return <Econ/>;
 };
 
