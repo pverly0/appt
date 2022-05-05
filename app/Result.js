@@ -17,7 +17,7 @@ function Result(props) {
             source={require('appt/src/Images/logoSimples.png')} 
             />
             
-            <Text style={{fontSize:30, color:'white', top: 5, textAlign:'center'}}>Resultados:</Text>
+            <Text style={{fontSize:30, color:'white', top: 5, textAlign:'center', paddingBottom: 30}}>Resultados:</Text>
             
             <ScrollView style={{maxHeight:'85%'}}>
                         <Grid>

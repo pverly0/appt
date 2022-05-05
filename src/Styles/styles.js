@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
         borderColor: '#ddd',
         flex: 1, 
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
     logo: {
         width: 350,
