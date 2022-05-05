@@ -32,12 +32,58 @@ function TracoMed(props) {
                 <TextInput
                     style={{color:'white', fontSize:20,
                     borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170, marginVertical:6,
-                    position: 'absolute', right:1, top: 20}}
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 78}}
                     keyboardType='decimal-pad'
                 />
-                
-                
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 126}}
+                    keyboardType='decimal-pad'
+                />
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 178}}
+                    keyboardType='decimal-pad'
+                />
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 229}}
+                    keyboardType='decimal-pad'
+                />
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 281}}
+                    keyboardType='decimal-pad'
+                />
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 331}}
+                    keyboardType='decimal-pad'
+                />
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170,
+                    position: 'absolute', right:1, top: 382}}
+                    keyboardType='decimal-pad'
+                />
             </View>
 
             <TouchableOpacity onPress={() => console.log('tap')}
