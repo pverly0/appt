@@ -66,6 +66,17 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignSelf: 'center',
     },
+    butResult: {
+        position: 'absolute',
+        bottom: 1,
+        right: '15%',
+        borderWidth: 2,
+        borderRadius: 6,
+        backgroundColor: 'grey',
+        height: '10%',
+        width: '35%',
+        
+    },
     logo: {
         width: 350,
         height: 225,

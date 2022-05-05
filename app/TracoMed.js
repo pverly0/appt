@@ -7,7 +7,7 @@ import styles from 'appt/src/Styles/styles';
 
 <styles/>;
 
-function EconAmb(props) {
+function TracoMed(props) {
     return (
         <ImageBackground
         style={styles.background}>
@@ -17,7 +17,7 @@ function EconAmb(props) {
             source={require('appt/src/Images/logoSimples.png')} 
             />
             
-            <Text style={{fontSize:30, color:'white', top: 5, alignSelf: 'center'}}>Insira os dados:</Text>
+            <Text style={{fontSize:30, color:'white', top: 5, textAlign:'center'}}>Cálculo do Traço a partir das Medidas:</Text>
             
             <View>
                 <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Valor X</Text>
@@ -39,4 +39,4 @@ function EconAmb(props) {
     );
 }
 
-export default EconAmb;
+export default TracoMed;
