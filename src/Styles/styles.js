@@ -77,6 +77,13 @@ const styles = StyleSheet.create({
         width: '35%',
         
     },
+    cell: {
+        borderWidth: 1,
+        borderColor: '#ddd',
+        flex: 1, 
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
     logo: {
         width: 350,
         height: 225,
