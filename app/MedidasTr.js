@@ -23,7 +23,7 @@ function MedidasTr(props) {
                 <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Valor X</Text>
                 <TextInput
                     style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, boderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 2,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 2,
                     borderColor:'white', height:30, width:170, marginVertical:12,
                     position: 'absolute', right:1, top:20}}
                     keyboardType='decimal-pad'

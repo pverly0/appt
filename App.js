@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Result from './app/Result';
+import TracoMed from './app/TracoMed';
 
 export default function App() {
-  return <Result/>;
+  return <TracoMed/>;
 };
 
