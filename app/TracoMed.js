@@ -28,6 +28,15 @@ function TracoMed(props) {
                     position: 'absolute', right:1, top: 20}}
                     keyboardType='decimal-pad'
                 />
+                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
+                <TextInput
+                    style={{color:'white', fontSize:20,
+                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
+                    borderColor:'white', height:30, width:170, marginVertical:6,
+                    position: 'absolute', right:1, top: 20}}
+                    keyboardType='decimal-pad'
+                />
+                
                 
             </View>
 
