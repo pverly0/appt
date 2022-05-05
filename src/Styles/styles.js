@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
         right: 1,
         bottom: 1,
     },
+    
 });
 
 export default styles;
