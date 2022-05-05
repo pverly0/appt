@@ -6,7 +6,7 @@ import styles from 'appt/src/Styles/styles';
 
 <styles/>;
 
-function Econ(props) {
+function EconAmb(props) {
     return (
         <ImageBackground
         style={styles.background}>
@@ -22,7 +22,8 @@ function Econ(props) {
                 <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Valor X</Text>
                 <TextInput
                     style={{color:'white', fontSize:20,
-                    borderWidth:1, borderColor:'grey', height:30, width:170, marginVertical:12,
+                    borderTopWidth : 0, boderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 2,
+                    borderColor:'white', height:30, width:170, marginVertical:12,
                     position: 'absolute', right:1, top:20}}
                     keyboardType='decimal-pad'
                 />
@@ -32,4 +33,4 @@ function Econ(props) {
     );
 }
 
-export default Econ;
+export default EconAmb;
