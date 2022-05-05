@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
         flex: 1, 
         justifyContent: 'center',
         alignItems: 'center',
-        
+        padding: 4
     },
     logo: {
         width: 350,
