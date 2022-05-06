@@ -80,7 +80,7 @@ function TracoMed(props) {
 
             <TouchableOpacity onPress={() => console.log('tap')}
             style= {styles.butResult}>
-               <Text style={{fontSize:25, textAlign: 'center'}}>Ver Resultado</Text> 
+               <Text style={{fontSize:25, textAlign: 'center', paddingTop:'auto'}}>Ver Resultado</Text> 
             </TouchableOpacity>
             
         </ImageBackground>
