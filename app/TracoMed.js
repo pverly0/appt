@@ -17,7 +17,7 @@ function TracoMed(props) {
             source={require('appt/src/Images/logoSimples.png')} 
             />
             
-            <Text style={{fontSize:30, color:'white', top: 5, textAlign:'center'}}>Cálculo do Traço a partir das Medidas:</Text>
+            <Text style={{fontSize:27, color:'white', top: 5, textAlign:'center'}}>Cálculo do Traço a partir das Medidas:</Text>
             
             <View style={styles.container}>
                 <View style={styles.inputContainer}>
