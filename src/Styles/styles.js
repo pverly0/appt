@@ -85,6 +85,28 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         padding: 4
     },
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems:"center"
+    },
+    input:{
+        width:"48%",
+        borderBottomColor:"#000",
+        borderBottomWidth:2,
+        fontSize: 20,
+    },    
+    inputContainer:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center",
+        marginVertical:10
+    },
+    label: {
+        width:"48%",
+        fontSize:18,
+        color: 'white'
+    },
     logo: {
         width: 350,
         height: 225,

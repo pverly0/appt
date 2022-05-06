@@ -19,71 +19,63 @@ function TracoMed(props) {
             
             <Text style={{fontSize:30, color:'white', top: 5, textAlign:'center'}}>Cálculo do Traço a partir das Medidas:</Text>
             
-            <View>
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170, marginVertical:6,
-                    position: 'absolute', right:1, top: 20}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 78}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 126}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 178}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 229}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 281}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 331}}
-                    keyboardType='decimal-pad'
-                />
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Agressividade</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 1,
-                    borderColor:'white', height:30, width:170,
-                    position: 'absolute', right:1, top: 382}}
-                    keyboardType='decimal-pad'
-                />
+            <View style={styles.container}>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Agressividade</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Condição</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Tipo de cimento</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>fck</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Slump</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Dimensão máxima</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Idade</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Método de dosagem</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Type here"
+                    />
+                </View>
             </View>
 
             <TouchableOpacity onPress={() => console.log('tap')}
