@@ -67,6 +67,7 @@ function TracoMed(props) {
                     <TextInput
                     style={styles.input}
                     placeholder="Type here"
+                    keyboardType='decimal-pad'
                     />
                 </View>
                 <View style={styles.inputContainer}>
