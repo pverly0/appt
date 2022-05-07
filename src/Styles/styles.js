@@ -75,7 +75,15 @@ const styles = StyleSheet.create({
         backgroundColor: 'grey',
         height: '10%',
         width: '35%',
-        
+    },
+    cellT: {
+        borderWidth: 1,
+        borderColor: '#ddd',
+        flex: 1, 
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 4,
+        height: 100
     },
     cell: {
         borderWidth: 1,
@@ -83,7 +91,8 @@ const styles = StyleSheet.create({
         flex: 1, 
         justifyContent: 'center',
         alignItems: 'center',
-        padding: 4
+        padding: 4,
+        height: 60
     },
     container: {
         flex: 1,
