@@ -24,49 +24,49 @@ function TracoMed(props) {
                     <Text style={styles.label}>Agressividade</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
                 <View style={styles.inputContainer}>
                     <Text style={styles.label}>Condição</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
                 <View style={styles.inputContainer}>
                     <Text style={styles.label}>Tipo de cimento</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
                 <View style={styles.inputContainer}>
                     <Text style={styles.label}>fck</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
                 <View style={styles.inputContainer}>
                     <Text style={styles.label}>Slump</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
                 <View style={styles.inputContainer}>
                     <Text style={styles.label}>Dimensão máxima</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
                 <View style={styles.inputContainer}>
                     <Text style={styles.label}>Idade</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     keyboardType='decimal-pad'
                     />
                 </View>
@@ -74,7 +74,7 @@ function TracoMed(props) {
                     <Text style={styles.label}>Método de dosagem</Text>
                     <TextInput
                     style={styles.input}
-                    placeholder="Type here"
+                    placeholder="Insira aqui"
                     />
                 </View>
             </View>
