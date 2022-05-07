@@ -1,8 +1,8 @@
 import React from 'react';
 
-import EconAmb from './app/EconAmb';
+import MedidasTr from './app/MedidasTr';
 
 export default function App() {
-  return <EconAmb/>;
+  return <MedidasTr/>;
 };
 
