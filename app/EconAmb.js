@@ -19,15 +19,64 @@ function EconAmb(props) {
             
             <Text style={{fontSize:30, color:'white', top: 5, alignSelf: 'center'}}>Insira os dados:</Text>
             
-            <View>
-                <Text style={{fontSize:20, color:'white', textAlign:'left', top:20, marginVertical:12,}}>Valor X</Text>
-                <TextInput
-                    style={{color:'white', fontSize:20,
-                    borderTopWidth : 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth : 2,
-                    borderColor:'white', height:30, width:170, marginVertical:12,
-                    position: 'absolute', right:1, top:20}}
+            <View style={styles.container}>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor A</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor B</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor C</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor D</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor E</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor F</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor G</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
                     keyboardType='decimal-pad'
-                />
+                    />
+                </View>
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Valor H</Text>
+                    <TextInput
+                    style={styles.input}
+                    placeholder="Insira aqui"
+                    />
+                </View>
             </View>
 
             <TouchableOpacity onPress={() => console.log('tap')}
