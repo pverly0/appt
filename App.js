@@ -1,8 +1,8 @@
 import React from 'react';
 
-import MedidasTr from './app/MedidasTr';
+import Result from './app/Result';
 
 export default function App() {
-  return <MedidasTr/>;
+  return <Result/>;
 };
 
