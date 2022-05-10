@@ -1,13 +1,13 @@
 import React from 'react';
 import { Image, ImageBackground, 
     Text, TouchableOpacity, 
-    StatusBar } from 'react-native';
+    StatusBar, 
+    Alert} from 'react-native';
 
 import styles from 'appt/src/Styles/styles';
 
+function Welcome({navigation}) {
 
-function Welcome(props) {
-    
     return (
         <ImageBackground 
         style={styles.background}
@@ -16,17 +16,17 @@ function Welcome(props) {
             source={require('appt/src/Images/logosBlack.png')} 
             />
 
-            <TouchableOpacity onPress={() => console.log('tap')}
+            <TouchableOpacity onPress={() => navigation.navigate('TracoOp')}
             style= {styles.butTr}>
                <Text style={{fontSize:21, textAlign: 'center'}}>Traço do Concreto</Text> 
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => console.log('tap')}
+            <TouchableOpacity onPress={() => navigation.navigate('EconAmb')}
             style= {styles.butEc}>
                <Text style={{fontSize:21, textAlign: 'center'} }>Impactos Econômicos</Text> 
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => console.log('tap')}
+            <TouchableOpacity onPress={() => navigation.navigate('EconAmb')}
             style= {styles.butAm}>
                <Text style={{fontSize:21, textAlign: 'center'}}>Impactos Ambientais</Text> 
             </TouchableOpacity>

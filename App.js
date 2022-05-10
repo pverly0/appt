@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Welcome from './app/Welcome';
+import AppNavigator from './app/AppNavigator';
 
 export default function App() {
-  return <Welcome/>;
+  return <AppNavigator/>;
 };
 
