@@ -1,8 +1,7 @@
 import React from 'react';
 import { Image, ImageBackground, 
     Text, TouchableOpacity, 
-    StatusBar, 
-    Alert} from 'react-native';
+    StatusBar} from 'react-native';
 
 import styles from 'appt/src/Styles/styles';
 
