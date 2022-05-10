@@ -19,16 +19,16 @@ function Result(props) {
             
             <Text style={{fontSize:30, color:'white', top: 5, textAlign:'center', paddingBottom: 30}}>Resultados:</Text>
             
-            <ScrollView style={{maxHeight:'83%'}}>
+            <ScrollView style={{maxHeight:'82%'}}>
                 <Grid style={{paddingVertical:10}}>
-                    <Col size={50}>
+                    <Col size={35}>
                     
                         <Row style={styles.cellT}>
                             <Text style={{color:'white', fontSize:25}}>Medida</Text>
                         </Row>
                     
                         <Row style={styles.cell}>
-                            <Text style={{color:'white', fontSize:20}}>Dimensão máxima</Text>
+                            <Text style={{color:'white', fontSize:20}}>Dimensão máxima (mm)</Text>
                         </Row>
                     
                         <Row style={styles.cell}>
@@ -36,7 +36,7 @@ function Result(props) {
                         </Row>
                     
                         <Row style={styles.cell}>
-                            <Text style={{color:'white', fontSize:20}}>M.E.</Text>
+                            <Text style={{color:'white', fontSize:20}}>M.E. (kg/dm³)</Text>
                         </Row>
                         
                     </Col>
@@ -48,7 +48,7 @@ function Result(props) {
                         </Row>
                         
                         <Row style={styles.cell}>
-                            <Text style={{color:'white', fontSize:20}}>4.8 / 25 mm</Text>
+                            <Text style={{color:'white', fontSize:20}}>4.8 / 25</Text>
                         </Row>
                         
                         <Row style={styles.cell}>
@@ -56,14 +56,14 @@ function Result(props) {
                         </Row>
                         
                         <Row style={styles.cell}>
-                            <Text style={{color:'white', fontSize:20}}>2.62 / 2.72 kg/dm³</Text>
+                            <Text style={{color:'white', fontSize:20}}>2.62 / 2.72</Text>
                         </Row>
                     
                     </Col>
                 </Grid>
                 
                 <Grid style={{paddingVertical:10}}>
-                    <Col size={50}>
+                    <Col size={35}>
                     
                         <Row style={styles.cellT}>
                             <Text style={{color:'white', fontSize:25}}>A</Text>
@@ -105,7 +105,7 @@ function Result(props) {
                 </Grid>
 
                 <Grid style={{paddingVertical:10}}>
-                    <Col size={50}>
+                    <Col size={35}>
                     
                         <Row style={styles.cellT}>
                             <Text style={{color:'white', fontSize:25}}>A</Text>
@@ -147,7 +147,7 @@ function Result(props) {
                 </Grid>
 
                 <Grid style={{paddingVertical:10}}>
-                    <Col size={50}>
+                    <Col size={35}>
                     
                         <Row style={styles.cellT}>
                             <Text style={{color:'white', fontSize:25}}>A</Text>
@@ -189,7 +189,7 @@ function Result(props) {
                 </Grid>
 
                 <Grid style={{paddingVertical:10}}>
-                    <Col size={50}>
+                    <Col size={35}>
                     
                         <Row style={styles.cellT}>
                             <Text style={{color:'white', fontSize:25}}>A</Text>
@@ -231,7 +231,7 @@ function Result(props) {
                 </Grid>
 
                 <Grid style={{paddingVertical:10}}>
-                    <Col size={50}>
+                    <Col size={35}>
                     
                         <Row style={styles.cellT}>
                             <Text style={{color:'white', fontSize:25}}>A</Text>
