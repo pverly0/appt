@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Welcome from './Welcome';
 import TracoOp from './TracoOp';
 import EconAmb from './EconAmb';
+import Result from './Result'
 
 
 
@@ -18,6 +19,7 @@ export default function AppNavigator() {
                 <Stack.Screen name='Welcome' component={Welcome}/>
                 <Stack.Screen name='TracoOp' component={TracoOp}/>
                 <Stack.Screen name='EconAmb' component={EconAmb}/>
+                <Stack.Screen name='Result' component={Result}/>
 
             </Stack.Navigator>
         

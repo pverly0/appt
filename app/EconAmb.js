@@ -7,7 +7,7 @@ import styles from 'appt/src/Styles/styles';
 
 <styles/>;
 
-function EconAmb(props) {
+function EconAmb({navigation}) {
     return (
         <ImageBackground
         style={styles.background}>
@@ -79,7 +79,7 @@ function EconAmb(props) {
                 </View>
             </View>
 
-            <TouchableOpacity onPress={() => console.log('tap')}
+            <TouchableOpacity onPress={() => navigation.navigate('Result')}
             style= {styles.butResult}>
                <Text style={{fontSize:25, textAlign: 'center'}}>Ver Resultado</Text> 
             </TouchableOpacity>

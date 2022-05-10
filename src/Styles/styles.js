@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
         width:"48%",
         borderBottomColor:"#585858",
         borderBottomWidth:2,
-        fontSize: 20,
+        fontSize: 25,
     },    
     inputContainer:{
         flexDirection:"row",
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
     },
     label: {
         width:"48%",
-        fontSize:18,
+        fontSize:25,
         color: 'white'
     },
     logo: {
