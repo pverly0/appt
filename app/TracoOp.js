@@ -18,12 +18,12 @@ function TracoOp({navigation}) {
 
             <Text style={{fontSize:30, color:'white', top: '10%', textAlign:'center'}}>O que gostaria de fazer?</Text>
 
-            <TouchableOpacity onPress={() => navigation.navigate('EconAmb')}
+            <TouchableOpacity onPress={() => navigation.navigate('TracoMed')}
             style= {styles.butTrMd}>
                <Text style={{fontSize:25, textAlign: 'center'}}>Cálculo do Traço a partir das Medidas</Text> 
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate('EconAmb')}
+            <TouchableOpacity onPress={() => navigation.navigate('MedidasTr')}
             style= {styles.butMdTr}>
                <Text style={{fontSize:25, textAlign: 'center'}}>Cálculo das Medidas a partir do Traço</Text> 
             </TouchableOpacity>

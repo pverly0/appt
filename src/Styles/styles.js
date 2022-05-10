@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
         borderBottomColor:"#585858",
         borderBottomWidth:2,
         fontSize: 25,
+        color:'white'
     },    
     inputContainer:{
         flexDirection:"row",

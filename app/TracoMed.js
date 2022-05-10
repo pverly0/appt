@@ -7,7 +7,7 @@ import styles from 'appt/src/Styles/styles';
 
 <styles/>;
 
-function TracoMed(props) {
+function TracoMed({navigation}) {
     return (
         <ImageBackground
         style={styles.background}>
@@ -79,7 +79,7 @@ function TracoMed(props) {
                 </View>
             </View>
 
-            <TouchableOpacity onPress={() => console.log('tap')}
+            <TouchableOpacity onPress={() => navigation.navigate('Result')}
             style= {styles.butResult}>
                <Text style={{fontSize:25, textAlign: 'center', paddingTop:'auto'}}>Ver Resultado</Text> 
             </TouchableOpacity>
