@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Result from './app/Result';
+import Welcome from './app/Welcome';
 
 export default function App() {
-  return <Result/>;
+  return <Welcome/>;
 };
 

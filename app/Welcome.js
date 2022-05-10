@@ -13,7 +13,7 @@ function Welcome(props) {
         style={styles.background}
         >
             <Image style={styles.logo} 
-            source={require('appt/src/Images/logosPreto.png')} 
+            source={require('appt/src/Images/logosBlack.png')} 
             />
 
             <TouchableOpacity onPress={() => console.log('tap')}
